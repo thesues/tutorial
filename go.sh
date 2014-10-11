@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" http://127.0.0.1:8000/aabill/api/submitprocess/ -d 'activity=学习&date=2010-11-01&list=[{"name":"yang","consume":50, "prepay":0},{"name":"zhang","consume":50,"prepay":100}]' >test.html
